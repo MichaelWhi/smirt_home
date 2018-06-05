@@ -27,7 +27,7 @@ const turnDown = async (device) => {
 exports.managePollution = async function() {
     const device = await miio.device({ address: PURIFIER_IP });
     console.log("connected to", device);
-    pm25$ = listenForPm25(device);
+    const pm25$ = listenForPm25(device);
     pm25$.subscribe(pval => {
         if(pval[0] > THRESHOLD) {
             turnUp(device);

@@ -26,7 +26,7 @@ Install
  
  License
  --------
- Please not the licenses of RxJS and `miio`, and other npm packages utilized (`package.json`).
+ Please note the licenses of RxJS and `miio`, and other npm packages utilized (`package.json`).
  
  The code itself is merely an example usage, you can do what the fuck you want:
  
